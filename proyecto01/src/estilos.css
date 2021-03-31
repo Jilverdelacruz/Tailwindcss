@@ -1,0 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@tailwind base;
+@tailwind components;
+
+/*@font-face{
+    font-family: Kurale;
+    src: url('./fonts/murale-Regular.ttf') 
+}*/
+@tailwind utilities;

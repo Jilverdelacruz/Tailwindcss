@@ -1,0 +1,28 @@
+******Background:
+bg-red-400
+******textos
+text-white
+text-center
+*****Responsive:
+sm: >640
+md: >768
+lg: >1024
+xl: >1280
+******Grid
+Padre:
+grid grid-cols-6 : El bloque padre divide en 6 columnas m�xmimo 12 aa menos que se personalice
+grid grid-rows-6: El bloque padre divide en 6 filas m�ximo 12 a menos que se personalice
+gap-4: El espacio entre los bloques.
+Hijo:
+row-span-2: El bloque ocupa dos filas, tambien se puede aplicar para columnas con (col)
+row-start-3: El bloque empieza en la tercera grilla.
+row-end-4: El bloque deber�a terminar en la cuarta grill
+******Comandos para instalar
+Corroborar que tienes instalado con npm -v
+npm init -y : genera un json para que puedas modificar el proyecto.
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest : Para poder instalarlo.
+npx tailwindcss build src/estilos.css -o public/compilado.css : compilar en el archivo public
+npx tailwindcss init --full: Sale la configuración completa y podemos editar lo que sea conveniente
+npx tailwindcss init: La configuraicón básica.
+
+

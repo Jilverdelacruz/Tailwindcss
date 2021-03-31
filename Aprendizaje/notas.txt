@@ -1,0 +1,73 @@
+******Colores
+bg-red-400: colores 
+text-blue-400 : para los textos para el blanco no hay tonalidades
+border border-blue-400 :color del border
+placeholder-gray-600: color del place holder
+******Espacios
+nota: 1rem es igual a 16pixeles
+*******Altura
+Tambien se puede manejar por porcentaje
+h-1/2 : ocupará el 50% de la pantalla
+h-64
+******Anchura
+w-1/2 : ocupará el 50% de la pantalla
+w-64
+******Padding
+pt-3
+pb-4
+p-5
+py-4: horizontal
+px-4 manera vertical
+mx-auto: lo centra
+******margin
+mt-4
+m-4
+*****tipografía y texto
+font-serif :tipo de letra
+text-3xl: tamaño de letra
+italic: cursiva
+font-bold o font-extrabold : negrita
+text-center  jutify left right
+line-trough
+underline: subrayado
+uppercase: mayuscula
+capitalaze: solo la primera letra mayuscula
+lowercase:minuscula
+*******espaciado
+entre lineas
+leading-tight leading-relaxed
+entre letras
+tracking-widest tracking-tight tracking-tighter (mas espacio, menos espacio, poco espacio)
+*******display
+block : ocupan toda la pantalla
+inline-bloc: se acomdan horizontal
+inline: igual  pero no nos enfocamos en la altura
+hidden: desaparece
+     padre  
+flex     flex-wrap : Para que no pase del contenedor 
+flex flex-row : lo alinea horizontal
+flex justify-end : se va en lado izquierdo
+flex justify-center : se va en lado centro
+flex justify-between : centra sin espacio a los extremos
+flex justify-around : centra con espacio a los extremos
+items-center: 
+items-start: 
+items-strech: se extiende el padding
+items-baseline: se centra la base de un texto
+items-end: lo centra a todos verticalmente
+flex flex-col : lo alinea verticañ
+flex flex-row-reverse : lo alinea horizontal pero de izquierda a derecha
+flex flex-row : lo alinea vertical de abajo arribsa
+   hijo
+   order-1 : le puede dar el order de inicio de los bloques
+VERIFICAR DIRECTIVAS DE VARIANTES
+******VARIANTES
+responsive : sm, md , lf. xl
+hover: hover
+focus: focus
+disabled
+Librerias extras
+ocultar navar
+alpine.js : el nuevo tailwind para css
+purge.js : para eliminar todas las instrucciones no utilizadas en tu css, lo ves en inspeccionar el archivo css
+nano.js: sirve para minimizar el archivo css, lo ves en inspeccionar network .
