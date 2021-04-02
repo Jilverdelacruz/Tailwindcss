@@ -10,9 +10,10 @@ module.exports = {
       colors:{
         primary:'#00957C',
         secundary:'#FEAF04',
-        fondo:'#F9FBFF',
+        fondo:'#FAFBFF', 
         texto:'#3F3D56',
-      }
+      },
+      boxShadow: ['active'],
       
     },
   },
